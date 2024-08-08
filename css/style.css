@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
 
-  --header-height: 8rem;
+  --header-height: 6rem;
 
   /* colors */
   --first-color: 	hsl(192, 62%, 62%);
@@ -149,6 +149,7 @@ img{
   top: 0;
   left: 0;
   width: 100%;
+  padding: 19px 0;
   background-color: var(--container-color);
   z-index: var(--z-fixed);
 }
